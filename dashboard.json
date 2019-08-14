@@ -1,0 +1,1539 @@
+{
+    "properties": {
+      "lenses": {
+        "0": {
+          "order": 0,
+          "parts": {
+            "0": {
+              "position": {
+                "x": 0,
+                "y": 0,
+                "colSpan": 4,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "sharedTimeRange",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "options",
+                    "value": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                            },
+                            "name": "availabilityResults/availabilityPercentage",
+                            "aggregationType": 4,
+                            "namespace": "microsoft.insights/components",
+                            "metricVisualization": {
+                              "resourceDisplayName": "azumon",
+                              "color": "#7FBA00"
+                            }
+                          }
+                        ],
+                        "title": "Availability",
+                        "visualization": {
+                          "chartType": 2,
+                          "axisVisualization": {
+                            "y": {
+                              "isVisible": true,
+                              "min": 0,
+                              "max": 100
+                            },
+                            "x": {
+                              "isVisible": true
+                            }
+                          }
+                        },
+                        "openBladeOnClick": {
+                          "openBlade": true,
+                          "destinationBlade": {
+                            "bladeName": "ResourceMenuBlade",
+                            "parameters": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon",
+                              "menuid": "availability"
+                            },
+                            "extensionName": "HubsExtension",
+                            "metadata": {},
+                            "options": {
+                              "parameters": {
+                                "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon",
+                                "menuid": "availability"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+                "settings": {
+                  "content": {
+                    "options": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                            },
+                            "name": "availabilityResults/availabilityPercentage",
+                            "aggregationType": 4,
+                            "namespace": "microsoft.insights/components",
+                            "metricVisualization": {
+                              "resourceDisplayName": "azumon",
+                              "color": "#7FBA00"
+                            }
+                          }
+                        ],
+                        "title": "Availability",
+                        "visualization": {
+                          "chartType": 2,
+                          "axisVisualization": {
+                            "y": {
+                              "isVisible": true,
+                              "min": 0,
+                              "max": 100
+                            },
+                            "x": {
+                              "isVisible": true
+                            }
+                          },
+                          "disablePinning": true
+                        },
+                        "openBladeOnClick": {
+                          "openBlade": true,
+                          "destinationBlade": {
+                            "bladeName": "ResourceMenuBlade",
+                            "parameters": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon",
+                              "menuid": "availability"
+                            },
+                            "extensionName": "HubsExtension",
+                            "metadata": {},
+                            "options": {
+                              "parameters": {
+                                "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon",
+                                "menuid": "availability"
+                              }
+                            }
+                          }
+                        },
+                        "filterCollection": {
+                          "filters": []
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "1": {
+              "position": {
+                "x": 4,
+                "y": 0,
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              "metadata": {
+                "inputs": [],
+                "type": "Extension/HubsExtension/PartType/ServicesHealthPart"
+              }
+            },
+            "2": {
+              "position": {
+                "x": 5,
+                "y": 0,
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "Name": "azumon",
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon"
+                    },
+                    "isOptional": true
+                  },
+                  {
+                    "name": "componentId",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "id",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "TimeContext",
+                    "value": {
+                      "durationMs": 86400000,
+                      "createdTime": "2019-08-12T00:14:54.3Z",
+                      "isInitialTime": false,
+                      "grain": 1,
+                      "useDashboardTimeRange": false
+                    },
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/WebTestsPinnedPart"
+              }
+            },
+            "3": {
+              "position": {
+                "x": 6,
+                "y": 0,
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ResourceId",
+                    "value": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/CuratedBladePerformancePinnedPart",
+                "isAdapter": true,
+                "asset": {
+                  "idInputName": "ResourceId",
+                  "type": "ApplicationInsights"
+                },
+                "defaultMenuItemId": "performance"
+              }
+            },
+            "4": {
+              "position": {
+                "x": 7,
+                "y": 0,
+                "colSpan": 2,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [],
+                "type": "Extension/HubsExtension/PartType/ClockPart",
+                "settings": {
+                  "content": {
+                    "settings": {
+                      "location": "E. Europe Standard Time",
+                      "timezoneId": "W. Europe Standard Time",
+                      "timeFormat": "HH:mm",
+                      "version": 1
+                    }
+                  }
+                }
+              }
+            },
+            "5": {
+              "position": {
+                "x": 9,
+                "y": 0,
+                "colSpan": 4,
+                "rowSpan": 4
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "let msg_regex = \"^Player (.*) scored (.*) with difficulty (.*)$\";\ntraces\n| where message matches regex msg_regex\n| extend player = extract(msg_regex, 1, message)\n| extend score = toint(extract(msg_regex, 2, message))\n| extend difficulty = toint(round(todecimal(extract(msg_regex, 3, message))))\n| where difficulty > 0\n| summarize max(score) by player, difficulty\n| order by max_score, difficulty desc\n"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "value": "PT4H"
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "9583f52d-1239-4341-bfdc-8ef9b5531625"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsGrid"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "DashboardId",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Highscore",
+                    "PartSubTitle": "by difficulty",
+                    "Query": "let msg_regex = \"^Player (.*) scored (.*) with difficulty (.*)$\";\ntraces\n| where customDimensions.Category == 'Function.play.User'\n| where message matches regex msg_regex\n| extend player = extract(msg_regex, 1, message)\n| extend score = toint(extract(msg_regex, 2, message))\n| extend difficulty = toint(round(todecimal(extract(msg_regex, 3, message))))\n| where difficulty > 0\n| summarize max(score) by player, difficulty\n| order by max_score, difficulty desc\n",
+                    "GridColumnsWidth": {
+                      "difficulty": "92px",
+                      "player": "143px",
+                      "max_score": "154px"
+                    }
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "6": {
+              "position": {
+                "x": 13,
+                "y": 0,
+                "colSpan": 5,
+                "rowSpan": 4
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "let msg_regex = \"^Player (.*) scored (.*) with difficulty (.*)$\";\ntraces\n| where message matches regex msg_regex\n| extend score = toint(extract(msg_regex, 2, message))\n| extend difficulty = toint(round(todecimal(extract(msg_regex, 3, message))))\n| summarize max(score) by tostring(difficulty), bin(timestamp, 1m)\n| render timechart \n"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "value": "PT4H"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "value": {
+                      "xAxis": {
+                        "name": "timestamp",
+                        "type": "DateTime"
+                      },
+                      "yAxis": [
+                        {
+                          "name": "max_score",
+                          "type": "Int32"
+                        }
+                      ],
+                      "splitBy": [
+                        {
+                          "name": "difficulty",
+                          "type": "String"
+                        }
+                      ],
+                      "aggregation": "Sum"
+                    }
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "f2a6298c-04fa-4e27-9ed8-2e45d5821c75"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsChart"
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "value": "Line"
+                  },
+                  {
+                    "name": "DashboardId",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Play duration by difficulty",
+                    "PartSubTitle": "max duration in ms | per minute",
+                    "Query": "let msg_regex = \"^Player (.*) scored (.*) with difficulty (.*)$\";\ntraces\n| where customDimensions.Category == 'Function.play.User'\n| where message matches regex msg_regex\n| extend score = toint(extract(msg_regex, 2, message))\n| extend difficulty = toint(round(todecimal(extract(msg_regex, 3, message))))\n| summarize max(score) by tostring(difficulty), bin(timestamp, 1m)\n| render timechart \n"
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "7": {
+              "position": {
+                "x": 4,
+                "y": 1,
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "Name": "azumon",
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon"
+                    }
+                  },
+                  {
+                    "name": "CurrentFilter",
+                    "value": {
+                      "eventTypes": [
+                        4,
+                        1,
+                        3,
+                        5,
+                        2,
+                        6,
+                        13
+                      ],
+                      "typeFacets": {},
+                      "isPermissive": false
+                    }
+                  },
+                  {
+                    "name": "TimeContext",
+                    "value": {
+                      "durationMs": 86400000,
+                      "createdTime": "2019-08-12T00:35:53.987Z",
+                      "isInitialTime": false,
+                      "grain": 1,
+                      "useDashboardTimeRange": false
+                    }
+                  },
+                  {
+                    "name": "CurrentQueryText",
+                    "value": ""
+                  },
+                  {
+                    "name": "ConfigurationId",
+                    "value": "blankSearch:?name=d312890b-dc54-46ea-bb5f-ed81606be0a6"
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/SearchNavButtonPinnedPart",
+                "settings": {
+                  "content": {
+                    "searchDataModelJSON": "{\"ComponentId\":{\"Name\":\"azumon\",\"SubscriptionId\":\"ad7850e9-e21d-4e7a-856e-2c63143e14a6\",\"ResourceGroup\":\"azumon\"},\"CurrentQueryText\":\"*\",\"TimeContext\":{\"durationMs\":86400000,\"createdTime\":\"Mon Aug 12 2019 02:35:59 GMT+0200 (Central European Summer Time)\",\"isInitialTime\":false,\"grain\":1,\"useDashboardTimeRange\":false},\"CurrentFilter\":{\"eventTypes\":[4,1,3,5,2,6,13],\"typeFacets\":{},\"isPermissive\":false},\"ConfigurationId\":\"blankSearch:?name=d312890b-dc54-46ea-bb5f-ed81606be0a6\",\"FavoriteId\":null}"
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                },
+                "defaultMenuItemId": "searchV1"
+              }
+            },
+            "8": {
+              "position": {
+                "x": 5,
+                "y": 1,
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "Name": "azumon",
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon"
+                    }
+                  },
+                  {
+                    "name": "ResourceId",
+                    "value": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/QuickPulseButtonSmallPart",
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "9": {
+              "position": {
+                "x": 6,
+                "y": 1,
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ResourceId",
+                    "value": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/CuratedBladeFailuresPinnedPart",
+                "isAdapter": true,
+                "asset": {
+                  "idInputName": "ResourceId",
+                  "type": "ApplicationInsights"
+                },
+                "defaultMenuItemId": "failures"
+              }
+            },
+            "10": {
+              "position": {
+                "x": 0,
+                "y": 2,
+                "colSpan": 4,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "sharedTimeRange",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "options",
+                    "value": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.web/sites/azumon"
+                            },
+                            "name": "AppConnections",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Connections"
+                            }
+                          }
+                        ],
+                        "title": "Sum Connections for azumon",
+                        "titleKind": 1,
+                        "visualization": {
+                          "chartType": 2,
+                          "legendVisualization": {
+                            "isVisible": true,
+                            "position": 2,
+                            "hideSubtitle": false
+                          },
+                          "axisVisualization": {
+                            "x": {
+                              "isVisible": true,
+                              "axisType": 2
+                            },
+                            "y": {
+                              "isVisible": true,
+                              "axisType": 1
+                            }
+                          }
+                        }
+                      },
+                      "version": 2
+                    },
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+                "settings": {
+                  "content": {
+                    "options": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.web/sites/azumon"
+                            },
+                            "name": "AppConnections",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Connections"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.web/sites/azumon"
+                            },
+                            "name": "RequestsInApplicationQueue",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Requests In Application Queue"
+                            }
+                          }
+                        ],
+                        "title": "Connections & queued requests (sum)",
+                        "titleKind": 2,
+                        "visualization": {
+                          "chartType": 2,
+                          "legendVisualization": {
+                            "isVisible": true,
+                            "position": 2,
+                            "hideSubtitle": false
+                          },
+                          "axisVisualization": {
+                            "x": {
+                              "isVisible": true,
+                              "axisType": 2
+                            },
+                            "y": {
+                              "isVisible": true,
+                              "axisType": 1
+                            }
+                          },
+                          "disablePinning": true
+                        },
+                        "filterCollection": {
+                          "filters": []
+                        }
+                      },
+                      "version": 2
+                    }
+                  }
+                }
+              }
+            },
+            "11": {
+              "position": {
+                "x": 4,
+                "y": 2,
+                "colSpan": 5,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "requests\n| where timestamp > ago(1d) \n| join kind=leftanti\n(\n    availabilityResults\n)\non operation_Id\n| summarize count() by resultCode, bin(timestamp, 1m)\n| render timechart\n"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "value": {
+                      "xAxis": {
+                        "name": "timestamp",
+                        "type": "DateTime"
+                      },
+                      "yAxis": [
+                        {
+                          "name": "count_",
+                          "type": "Int64"
+                        }
+                      ],
+                      "splitBy": [
+                        {
+                          "name": "resultCode",
+                          "type": "String"
+                        }
+                      ],
+                      "aggregation": "Sum"
+                    }
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "d63df9f8-0253-4272-be01-71df277bc763"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsChart"
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "value": "Line"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "DashboardId",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Real user requests by HTTP status code",
+                    "PartSubTitle": "total count | per minute",
+                    "Query": "requests\n| join kind=leftanti (availabilityResults) on operation_Id\n| summarize count() by resultCode, bin(timestamp, 1m)\n| render timechart\n"
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "12": {
+              "position": {
+                "x": 0,
+                "y": 4,
+                "colSpan": 4,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "sharedTimeRange",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "options",
+                    "value": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/sites/azumon"
+                            },
+                            "name": "Http2xx",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Http 2xx"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/sites/azumon"
+                            },
+                            "name": "Http5xx",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Http Server Errors"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/sites/azumon"
+                            },
+                            "name": "Http4xx",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Http 4xx"
+                            }
+                          }
+                        ],
+                        "title": "Total requests by HTTP status",
+                        "titleKind": 2,
+                        "visualization": {
+                          "chartType": 2,
+                          "legendVisualization": {
+                            "isVisible": true,
+                            "position": 2,
+                            "hideSubtitle": false
+                          },
+                          "axisVisualization": {
+                            "x": {
+                              "isVisible": true,
+                              "axisType": 2
+                            },
+                            "y": {
+                              "isVisible": true,
+                              "axisType": 1
+                            }
+                          }
+                        }
+                      },
+                      "version": 2
+                    },
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+                "settings": {
+                  "content": {
+                    "options": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/sites/azumon"
+                            },
+                            "name": "Http2xx",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Http 2xx"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/sites/azumon"
+                            },
+                            "name": "Http5xx",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Http Server Errors"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/sites/azumon"
+                            },
+                            "name": "Http4xx",
+                            "aggregationType": 1,
+                            "namespace": "microsoft.web/sites",
+                            "metricVisualization": {
+                              "displayName": "Http 4xx"
+                            }
+                          }
+                        ],
+                        "title": "Total requests by HTTP status code (sum)",
+                        "titleKind": 2,
+                        "visualization": {
+                          "chartType": 2,
+                          "legendVisualization": {
+                            "isVisible": true,
+                            "position": 2,
+                            "hideSubtitle": false
+                          },
+                          "axisVisualization": {
+                            "x": {
+                              "isVisible": true,
+                              "axisType": 2
+                            },
+                            "y": {
+                              "isVisible": true,
+                              "axisType": 1
+                            }
+                          },
+                          "disablePinning": true
+                        },
+                        "filterCollection": {
+                          "filters": []
+                        }
+                      },
+                      "version": 2
+                    }
+                  }
+                }
+              }
+            },
+            "13": {
+              "position": {
+                "x": 4,
+                "y": 4,
+                "colSpan": 5,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "requests \n| join kind=leftanti (availabilityResults) on operation_Id\n| extend [\"call\"]=strcat(tostring(customDimensions.HttpMethod), ' ', tostring(customDimensions.HttpPath))\n| where call != \" \"\n| summarize avg(duration) by call, bin(timestamp, 1m) \n| render timechart \n"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "value": "P1D"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "value": {
+                      "xAxis": {
+                        "name": "timestamp",
+                        "type": "DateTime"
+                      },
+                      "yAxis": [
+                        {
+                          "name": "avg_duration",
+                          "type": "Double"
+                        }
+                      ],
+                      "splitBy": [
+                        {
+                          "name": "call",
+                          "type": "String"
+                        }
+                      ],
+                      "aggregation": "Sum"
+                    }
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "32a564be-b9cf-412e-b933-ac8591fe380f"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsChart"
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "value": "Line"
+                  },
+                  {
+                    "name": "DashboardId",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Real user requests duration (avg)",
+                    "PartSubTitle": "avg duration in ms | per minute"
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "14": {
+              "position": {
+                "x": 9,
+                "y": 4,
+                "colSpan": 3,
+                "rowSpan": 4
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourcegroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "let msg_regex = \"^saying hello to (.*) from (.*)$\";\ntraces\n| where customDimensions.Category endswith '.User'\n| where message matches regex msg_regex\n| extend greet_name = extract(msg_regex, 1, message)\n| extend greet_ip = extract(msg_regex, 2, message)\n| summarize count() by greet_name, greet_ip\n| order by count_\n"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "value": "PT1H"
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "6db48030-6115-4f9c-b673-7a81711519a0"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsGrid"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "DashboardId",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Plays by IP address",
+                    "PartSubTitle": "azumon",
+                    "Query": "let msg_regex = \"^Player (.*) with ip (.*) throws the dice\";\ntraces\n| where customDimensions.Category == 'Function.play.User'\n| where message matches regex msg_regex\n| extend player = extract(msg_regex, 1, message)\n| extend ip = extract(msg_regex, 2, message)\n| summarize count() by ip\n| order by count_\n",
+                    "GridColumnsWidth": {
+                      "greet_name": "113px",
+                      "greet_ip": "142px"
+                    }
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "15": {
+              "position": {
+                "x": 12,
+                "y": 4,
+                "colSpan": 6,
+                "rowSpan": 4
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourcegroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "traces\n| extend log_level = tostring(customDimensions.LogLevel)\n| extend log_category = tostring(customDimensions.Category)\n| summarize log_count=count() by severityLevel, log_level, log_category\n| order by severityLevel, log_count desc\n| project log_level, log_category, log_count\n"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "value": "P1D"
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "DashboardId",
+                    "value": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Portal/dashboards/cde268a9-14c0-46b4-b495-3c6a2c9b10b2"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "7d74ec3f-2abc-4087-8dc7-442d6c4ea473"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsGrid"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Logs by severity & component",
+                    "PartSubTitle": "azumon",
+                    "GridColumnsWidth": {
+                      "log_level": "104px",
+                      "log_category": "152px"
+                    }
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            },
+            "16": {
+              "position": {
+                "x": 0,
+                "y": 6,
+                "colSpan": 4,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "sharedTimeRange",
+                    "isOptional": true
+                  },
+                  {
+                    "name": "options",
+                    "value": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/serverFarms/AzuMonPlan"
+                            },
+                            "name": "CpuPercentage",
+                            "aggregationType": 4,
+                            "namespace": "microsoft.web/serverfarms",
+                            "metricVisualization": {
+                              "displayName": "CPU Percentage"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/serverFarms/AzuMonPlan"
+                            },
+                            "name": "MemoryPercentage",
+                            "aggregationType": 3,
+                            "namespace": "microsoft.web/serverfarms",
+                            "metricVisualization": {
+                              "displayName": "Memory Percentage"
+                            }
+                          }
+                        ],
+                        "title": "Avg CPU Percentage and Max Memory Percentage for AzuMonPlan",
+                        "titleKind": 1,
+                        "visualization": {
+                          "chartType": 2,
+                          "legendVisualization": {
+                            "isVisible": true,
+                            "position": 2,
+                            "hideSubtitle": false
+                          },
+                          "axisVisualization": {
+                            "x": {
+                              "isVisible": true,
+                              "axisType": 2
+                            },
+                            "y": {
+                              "isVisible": true,
+                              "axisType": 1
+                            }
+                          }
+                        }
+                      },
+                      "version": 2
+                    },
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+                "settings": {
+                  "content": {
+                    "options": {
+                      "chart": {
+                        "metrics": [
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/serverFarms/AzuMonPlan"
+                            },
+                            "name": "CpuPercentage",
+                            "aggregationType": 4,
+                            "namespace": "microsoft.web/serverfarms",
+                            "metricVisualization": {
+                              "displayName": "CPU Percentage"
+                            }
+                          },
+                          {
+                            "resourceMetadata": {
+                              "id": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/Microsoft.Web/serverFarms/AzuMonPlan"
+                            },
+                            "name": "MemoryPercentage",
+                            "aggregationType": 3,
+                            "namespace": "microsoft.web/serverfarms",
+                            "metricVisualization": {
+                              "displayName": "Memory Percentage"
+                            }
+                          }
+                        ],
+                        "title": "CPU (avg) and Memory (max) percentage",
+                        "titleKind": 2,
+                        "visualization": {
+                          "chartType": 2,
+                          "legendVisualization": {
+                            "isVisible": true,
+                            "position": 2,
+                            "hideSubtitle": false
+                          },
+                          "axisVisualization": {
+                            "x": {
+                              "isVisible": true,
+                              "axisType": 3
+                            },
+                            "y": {
+                              "isVisible": true,
+                              "axisType": 1
+                            }
+                          },
+                          "disablePinning": true
+                        },
+                        "filterCollection": {
+                          "filters": []
+                        }
+                      },
+                      "version": 2
+                    }
+                  }
+                }
+              }
+            },
+            "17": {
+              "position": {
+                "x": 4,
+                "y": 6,
+                "colSpan": 5,
+                "rowSpan": 2
+              },
+              "metadata": {
+                "inputs": [
+                  {
+                    "name": "ComponentId",
+                    "value": {
+                      "SubscriptionId": "ad7850e9-e21d-4e7a-856e-2c63143e14a6",
+                      "ResourceGroup": "azumon",
+                      "Name": "azumon",
+                      "ResourceId": "/subscriptions/ad7850e9-e21d-4e7a-856e-2c63143e14a6/resourceGroups/azumon/providers/microsoft.insights/components/azumon"
+                    }
+                  },
+                  {
+                    "name": "Query",
+                    "value": "exceptions\n| where customDimensions.Category != \"Host.Results\"\n| summarize count() by tostring(customDimensions.Category), bin(timestamp, 1m)\n| render barchart kind=unstacked  \n"
+                  },
+                  {
+                    "name": "TimeRange",
+                    "value": "PT4H"
+                  },
+                  {
+                    "name": "Dimensions",
+                    "value": {
+                      "xAxis": {
+                        "name": "timestamp",
+                        "type": "DateTime"
+                      },
+                      "yAxis": [
+                        {
+                          "name": "count_",
+                          "type": "Int64"
+                        }
+                      ],
+                      "splitBy": [
+                        {
+                          "name": "customDimensions_Category",
+                          "type": "String"
+                        }
+                      ],
+                      "aggregation": "Sum"
+                    }
+                  },
+                  {
+                    "name": "Version",
+                    "value": "1.0"
+                  },
+                  {
+                    "name": "PartId",
+                    "value": "39180758-f784-4d24-a2f3-13ae3e39cc03"
+                  },
+                  {
+                    "name": "PartTitle",
+                    "value": "Analytics"
+                  },
+                  {
+                    "name": "PartSubTitle",
+                    "value": "azumon"
+                  },
+                  {
+                    "name": "resourceTypeMode",
+                    "value": "components"
+                  },
+                  {
+                    "name": "ControlType",
+                    "value": "AnalyticsChart"
+                  },
+                  {
+                    "name": "SpecificChart",
+                    "value": "GroupedBar"
+                  },
+                  {
+                    "name": "DashboardId",
+                    "isOptional": true
+                  }
+                ],
+                "type": "Extension/AppInsightsExtension/PartType/AnalyticsPart",
+                "settings": {
+                  "content": {
+                    "PartTitle": "Uncaught server exceptions",
+                    "PartSubTitle": "total count | per minute"
+                  }
+                },
+                "asset": {
+                  "idInputName": "ComponentId",
+                  "type": "ApplicationInsights"
+                }
+              }
+            }
+          }
+        }
+      },
+      "metadata": {
+        "model": {
+          "timeRange": {
+            "value": {
+              "relative": {
+                "duration": 24,
+                "timeUnit": 1
+              }
+            },
+            "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+          },
+          "filterLocale": {
+            "value": "en-us"
+          },
+          "filters": {
+            "value": {
+              "MsPortalFx_TimeRange": {
+                "model": {
+                  "format": "local",
+                  "granularity": "5m",
+                  "relative": "12h"
+                },
+                "displayCache": {
+                  "name": "Local Time",
+                  "value": "Past 720 minutes"
+                },
+                "filteredPartIds": [
+                  "StartboardPart-MonitorChartPart-cde268a9-14c0-46b4-b495-3c6a2c9b1b19",
+                  "StartboardPart-MonitorChartPart-cde268a9-14c0-46b4-b495-3c6a2c9b1b9c",
+                  "StartboardPart-MonitorChartPart-cde268a9-14c0-46b4-b495-3c6a2c9b1d76",
+                  "StartboardPart-MonitorChartPart-f0b39a93-49e2-4bf0-bf67-971e23617005",
+                  "StartboardPart-MonitorChartPart-f0b39a93-49e2-4bf0-bf67-971e23617011",
+                  "StartboardPart-MonitorChartPart-f0b39a93-49e2-4bf0-bf67-971e23617013",
+                  "StartboardPart-AnalyticsPart-f0b39a93-49e2-4bf0-bf67-971e23617017",
+                  "StartboardPart-MonitorChartPart-9fd48c42-5854-4b71-9789-99bf12791005",
+                  "StartboardPart-MonitorChartPart-9fd48c42-5854-4b71-9789-99bf12791015",
+                  "StartboardPart-AnalyticsPart-9fd48c42-5854-4b71-9789-99bf12791017",
+                  "StartboardPart-MonitorChartPart-9fd48c42-5854-4b71-9789-99bf12791019",
+                  "StartboardPart-AnalyticsPart-9fd48c42-5854-4b71-9789-99bf1279101b",
+                  "StartboardPart-MonitorChartPart-13e5d58e-f850-4e9f-9cbf-a03066572005",
+                  "StartboardPart-AnalyticsPart-13e5d58e-f850-4e9f-9cbf-a03066572015",
+                  "StartboardPart-MonitorChartPart-13e5d58e-f850-4e9f-9cbf-a03066572017",
+                  "StartboardPart-MonitorChartPart-13e5d58e-f850-4e9f-9cbf-a03066572019",
+                  "StartboardPart-AnalyticsPart-13e5d58e-f850-4e9f-9cbf-a0306657201b",
+                  "StartboardPart-AnalyticsPart-13e5d58e-f850-4e9f-9cbf-a03066572021",
+                  "StartboardPart-MonitorChartPart-1b73bb5d-b743-48f2-96f9-11547f13994b",
+                  "StartboardPart-MonitorChartPart-1b73bb5d-b743-48f2-96f9-11547f13995b",
+                  "StartboardPart-AnalyticsPart-1b73bb5d-b743-48f2-96f9-11547f13995d",
+                  "StartboardPart-AnalyticsPart-1b73bb5d-b743-48f2-96f9-11547f13995f",
+                  "StartboardPart-MonitorChartPart-1b73bb5d-b743-48f2-96f9-11547f139961",
+                  "StartboardPart-AnalyticsPart-1b73bb5d-b743-48f2-96f9-11547f139963",
+                  "StartboardPart-MonitorChartPart-ba495cfc-5026-4059-9fc0-a05239e4c005",
+                  "StartboardPart-MonitorChartPart-ba495cfc-5026-4059-9fc0-a05239e4c015",
+                  "StartboardPart-AnalyticsPart-ba495cfc-5026-4059-9fc0-a05239e4c017",
+                  "StartboardPart-AnalyticsPart-ba495cfc-5026-4059-9fc0-a05239e4c019",
+                  "StartboardPart-MonitorChartPart-ba495cfc-5026-4059-9fc0-a05239e4c01b",
+                  "StartboardPart-AnalyticsPart-ba495cfc-5026-4059-9fc0-a05239e4c01d",
+                  "StartboardPart-MonitorChartPart-ba495cfc-5026-4059-9fc0-a05239e4c263",
+                  "StartboardPart-MonitorChartPart-fe4a71f1-1704-4103-92fa-fb056c7d5005",
+                  "StartboardPart-MonitorChartPart-fe4a71f1-1704-4103-92fa-fb056c7d5015",
+                  "StartboardPart-AnalyticsPart-fe4a71f1-1704-4103-92fa-fb056c7d5017",
+                  "StartboardPart-AnalyticsPart-fe4a71f1-1704-4103-92fa-fb056c7d5019",
+                  "StartboardPart-MonitorChartPart-fe4a71f1-1704-4103-92fa-fb056c7d501b",
+                  "StartboardPart-AnalyticsPart-fe4a71f1-1704-4103-92fa-fb056c7d501d",
+                  "StartboardPart-MonitorChartPart-fe4a71f1-1704-4103-92fa-fb056c7d501f",
+                  "StartboardPart-AnalyticsPart-fe4a71f1-1704-4103-92fa-fb056c7d5021",
+                  "StartboardPart-MonitorChartPart-e0acf384-b4b1-4826-b209-8267fd7f9005",
+                  "StartboardPart-AnalyticsPart-e0acf384-b4b1-4826-b209-8267fd7f900f",
+                  "StartboardPart-MonitorChartPart-e0acf384-b4b1-4826-b209-8267fd7f9017",
+                  "StartboardPart-AnalyticsPart-e0acf384-b4b1-4826-b209-8267fd7f9019",
+                  "StartboardPart-MonitorChartPart-e0acf384-b4b1-4826-b209-8267fd7f901b",
+                  "StartboardPart-AnalyticsPart-e0acf384-b4b1-4826-b209-8267fd7f901d",
+                  "StartboardPart-AnalyticsPart-e0acf384-b4b1-4826-b209-8267fd7f901f",
+                  "StartboardPart-MonitorChartPart-e0acf384-b4b1-4826-b209-8267fd7f9021",
+                  "StartboardPart-AnalyticsPart-e0acf384-b4b1-4826-b209-8267fd7f9023",
+                  "StartboardPart-MonitorChartPart-c29fd9ea-d9ab-4827-9399-d076cc98551b",
+                  "StartboardPart-AnalyticsPart-c29fd9ea-d9ab-4827-9399-d076cc985525",
+                  "StartboardPart-AnalyticsPart-c29fd9ea-d9ab-4827-9399-d076cc985527",
+                  "StartboardPart-MonitorChartPart-c29fd9ea-d9ab-4827-9399-d076cc98552f",
+                  "StartboardPart-AnalyticsPart-c29fd9ea-d9ab-4827-9399-d076cc985531",
+                  "StartboardPart-MonitorChartPart-c29fd9ea-d9ab-4827-9399-d076cc985533",
+                  "StartboardPart-AnalyticsPart-c29fd9ea-d9ab-4827-9399-d076cc985535",
+                  "StartboardPart-AnalyticsPart-c29fd9ea-d9ab-4827-9399-d076cc985537",
+                  "StartboardPart-MonitorChartPart-c29fd9ea-d9ab-4827-9399-d076cc985539",
+                  "StartboardPart-MonitorChartPart-8e79c7f7-23b3-4e9d-8e13-ff253ff65005",
+                  "StartboardPart-AnalyticsPart-8e79c7f7-23b3-4e9d-8e13-ff253ff6500f",
+                  "StartboardPart-AnalyticsPart-8e79c7f7-23b3-4e9d-8e13-ff253ff65011",
+                  "StartboardPart-MonitorChartPart-8e79c7f7-23b3-4e9d-8e13-ff253ff65019",
+                  "StartboardPart-AnalyticsPart-8e79c7f7-23b3-4e9d-8e13-ff253ff6501b",
+                  "StartboardPart-MonitorChartPart-8e79c7f7-23b3-4e9d-8e13-ff253ff6501d",
+                  "StartboardPart-AnalyticsPart-8e79c7f7-23b3-4e9d-8e13-ff253ff6501f",
+                  "StartboardPart-AnalyticsPart-8e79c7f7-23b3-4e9d-8e13-ff253ff65021",
+                  "StartboardPart-MonitorChartPart-8e79c7f7-23b3-4e9d-8e13-ff253ff65023",
+                  "StartboardPart-MonitorChartPart-a15c88e3-778a-4d7c-8c9f-e7c5ee052005",
+                  "StartboardPart-AnalyticsPart-a15c88e3-778a-4d7c-8c9f-e7c5ee05200f",
+                  "StartboardPart-AnalyticsPart-a15c88e3-778a-4d7c-8c9f-e7c5ee052011",
+                  "StartboardPart-MonitorChartPart-a15c88e3-778a-4d7c-8c9f-e7c5ee052019",
+                  "StartboardPart-AnalyticsPart-a15c88e3-778a-4d7c-8c9f-e7c5ee05201b",
+                  "StartboardPart-MonitorChartPart-a15c88e3-778a-4d7c-8c9f-e7c5ee05201d",
+                  "StartboardPart-AnalyticsPart-a15c88e3-778a-4d7c-8c9f-e7c5ee05201f",
+                  "StartboardPart-AnalyticsPart-a15c88e3-778a-4d7c-8c9f-e7c5ee052021",
+                  "StartboardPart-MonitorChartPart-a15c88e3-778a-4d7c-8c9f-e7c5ee052023",
+                  "StartboardPart-MonitorChartPart-0e04cfb9-cbf7-4d6e-8494-0dc548973005",
+                  "StartboardPart-AnalyticsPart-0e04cfb9-cbf7-4d6e-8494-0dc54897300f",
+                  "StartboardPart-AnalyticsPart-0e04cfb9-cbf7-4d6e-8494-0dc548973011",
+                  "StartboardPart-MonitorChartPart-0e04cfb9-cbf7-4d6e-8494-0dc548973019",
+                  "StartboardPart-AnalyticsPart-0e04cfb9-cbf7-4d6e-8494-0dc54897301b",
+                  "StartboardPart-MonitorChartPart-0e04cfb9-cbf7-4d6e-8494-0dc54897301d",
+                  "StartboardPart-AnalyticsPart-0e04cfb9-cbf7-4d6e-8494-0dc54897301f",
+                  "StartboardPart-AnalyticsPart-0e04cfb9-cbf7-4d6e-8494-0dc548973021",
+                  "StartboardPart-MonitorChartPart-0e04cfb9-cbf7-4d6e-8494-0dc548973023",
+                  "StartboardPart-MonitorChartPart-db74194f-1bde-46a8-bd9e-f3189b2c4005",
+                  "StartboardPart-AnalyticsPart-db74194f-1bde-46a8-bd9e-f3189b2c400f",
+                  "StartboardPart-AnalyticsPart-db74194f-1bde-46a8-bd9e-f3189b2c4011",
+                  "StartboardPart-MonitorChartPart-db74194f-1bde-46a8-bd9e-f3189b2c4019",
+                  "StartboardPart-AnalyticsPart-db74194f-1bde-46a8-bd9e-f3189b2c401b",
+                  "StartboardPart-MonitorChartPart-db74194f-1bde-46a8-bd9e-f3189b2c401d",
+                  "StartboardPart-AnalyticsPart-db74194f-1bde-46a8-bd9e-f3189b2c401f",
+                  "StartboardPart-MonitorChartPart-db74194f-1bde-46a8-bd9e-f3189b2c4023",
+                  "StartboardPart-AnalyticsPart-db74194f-1bde-46a8-bd9e-f3189b2c4025",
+                  "StartboardPart-MonitorChartPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a005",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a00f",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a011",
+                  "StartboardPart-MonitorChartPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a019",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a01b",
+                  "StartboardPart-MonitorChartPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a01d",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a01f",
+                  "StartboardPart-MonitorChartPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a021",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a023",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a025",
+                  "StartboardPart-AnalyticsPart-7a6b3b38-0376-48b0-a72b-c7f84bd2a027",
+                  "StartboardPart-MonitorChartPart-282ac8a9-4089-4ade-acf6-ff9ce38dc005",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc00f",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc011",
+                  "StartboardPart-MonitorChartPart-282ac8a9-4089-4ade-acf6-ff9ce38dc019",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc01b",
+                  "StartboardPart-MonitorChartPart-282ac8a9-4089-4ade-acf6-ff9ce38dc01d",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc01f",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc021",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc023",
+                  "StartboardPart-MonitorChartPart-282ac8a9-4089-4ade-acf6-ff9ce38dc025",
+                  "StartboardPart-AnalyticsPart-282ac8a9-4089-4ade-acf6-ff9ce38dc027",
+                  "StartboardPart-MonitorChartPart-fe9804a3-64d7-4518-8931-55e8378dc0d7",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0e1",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0e3",
+                  "StartboardPart-MonitorChartPart-fe9804a3-64d7-4518-8931-55e8378dc0eb",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0ed",
+                  "StartboardPart-MonitorChartPart-fe9804a3-64d7-4518-8931-55e8378dc0ef",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0f1",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0f3",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0f5",
+                  "StartboardPart-MonitorChartPart-fe9804a3-64d7-4518-8931-55e8378dc0f7",
+                  "StartboardPart-AnalyticsPart-fe9804a3-64d7-4518-8931-55e8378dc0f9"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "name": "azumon",
+    "type": "Microsoft.Portal/dashboards",
+    "location": "INSERT LOCATION",
+    "tags": {
+      "hidden-title": "azumon"
+    },
+    "apiVersion": "2015-08-01-preview"
+  }
