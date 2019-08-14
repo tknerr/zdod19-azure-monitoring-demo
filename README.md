@@ -3,6 +3,16 @@
 
 Demo repository for my #ZDOD19 talk about Azure Monitoring
 
+Steps:
+
+1. Create the Function App
+2. Explore Azure Monitoring
+
+Dashboard:
+
+![image](https://user-images.githubusercontent.com/365744/63044569-c63df380-bece-11e9-8f3c-77c456d772e2.png)
+
+
 ## Create the Function App
 
 For now, I did this manually -- automated setup via AzureRM to follow...
