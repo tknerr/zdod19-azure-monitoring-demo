@@ -102,7 +102,7 @@ module.exports = async function (context, req) {
         let score = result.length;
 
         // that weird bug that sometimes occurs...
-        if (Math.random() > 0.999) {
+        if (Math.random() > 0.99) {
             throw "I'm a Heisenbug!";
         }
 
