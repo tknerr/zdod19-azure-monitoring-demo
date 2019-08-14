@@ -44,15 +44,22 @@ Start with a simple `/api/hello` endpoint:
 
 ```javascript
 module.exports = async function (context, req) {
-
+    
     if (req.query.name || (req.body && req.body.name)) {
-        context.log('saying hello to ' + (req.query.name || req.body.name));
+
+        let name = req.query.name || req.body.name;
+        context.log('saying hello to ' + name);
 
         // add artificial "processing" delay up to 2s...
         await new Promise(done => setTimeout(done, Math.random()*2000));
 
+        // add an intentional fail mode
+        if (name == "chuck") {
+            throw new "Chuck Norris just Roundhouse-kicked your Function away!"
+        }
+
         context.res = {
-            status: 200, body: "Hello " + (req.query.name || req.body.name)
+            status: 200, body: "Hello " + name
         };
     }
     else {
@@ -136,6 +143,10 @@ module.exports = async function (context, req) {
     }
 };
 ```
+
+Try it out:
+ * https://zdod19.azurewebsites.net/api/health
+
 
 ## Explore Azure Monitor Components
 
