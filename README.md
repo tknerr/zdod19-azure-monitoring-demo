@@ -54,8 +54,8 @@ module.exports = async function (context, req) {
         await new Promise(done => setTimeout(done, Math.random()*2000));
 
         // add an intentional fail mode
-        if (name == "chuck") {
-            throw new "Chuck Norris just Roundhouse-kicked your Function away!"
+        if (name == "chucknorris") {
+            throw "Chuck Norris just Roundhouse-kicked your Function away!"
         }
 
         context.res = {
@@ -161,10 +161,44 @@ We will look at different components [Azure Monitor](https://docs.microsoft.com/
  * Alerts
  * Service Health
 
-### Add Metrics to Dashboard
+### Explore Metrics
 
-### Add Metric Alert
+Demo steps:
 
-## Explore AppInisghts
+ * show metrics on AppServicePlan level, pin to dashboard
+    * avg vs max CPU
+    * avg vs max Memory
+ * show metrics on AppService level, pin to dashboard
+    * HTTP 2xx vs 4xx vs 5xx requests
+ * create metric alert for high CPU avg
 
-### Add AppInisghts to Dashboards
+### Explore AppInisghts
+
+Demo steps:
+
+ * show appInsights overview
+ * show health checks, pin them to dashboard
+ * show live metrics, pin to dashboard
+ * show logs
+    * requests
+    * traces
+    * search
+    * performanceCounters
+    * availabilityResults
+ * create alert for chucknorris
+
+### Explore Dashboards
+
+Import `dashboard.json` and explore the full featured dashboard:
+
+ * show import / export
+ * show time chooser
+ * show queries behind appinisghts widgets
+
+### Explore Service Health
+
+Demo steps:
+
+ * show Service Health / Health History
+ * show https://status.azure.com
+ * show how to set up Service Health alerts!
