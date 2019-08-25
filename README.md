@@ -1,7 +1,7 @@
 
 # #ZDOD19 - Monitoring in Azure 
 
-Demo repository for my #ZDOD19 talk about Azure Monitoring
+Demo repository for my #ZDOD19 talk about Azure Monitoring: https://www.slideshare.net/tknerr/monitoring-in-azure
 
 Overview:
 
